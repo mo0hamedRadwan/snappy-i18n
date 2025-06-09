@@ -1,0 +1,15 @@
+{
+  "user": {
+    "welcome": {
+      "en": "Hello, {{name}}!"
+    }
+  },
+  "items_one": {
+    "en": "{{count}} item",
+    "ar": "عنصر واحد"
+  },
+  "items_other": {
+    "en": "{{count}} items",
+    "ar": "{{count}} عناصر"
+  }
+}

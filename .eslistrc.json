@@ -1,0 +1,14 @@
+{
+  "root": true,
+  "env": {
+    "node": true,
+    "es2021": true,
+    "vitest": true
+  },
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint", "vitest"],
+  "extends": ["eslint:recommended", "plugin:@typescript-eslint/recommended", "plugin:vitest/recommended"],
+  "rules": {
+    "@typescript-eslint/no-explicit-any": "off"
+  }
+}

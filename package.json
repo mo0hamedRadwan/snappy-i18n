@@ -1,9 +1,13 @@
 {
-  "name": "i18n",
+  "name": "snappy-i18n",
   "version": "1.0.0",
   "type": "module",
   "main": "./dist/index.js",
+  "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc",
     "test": "vitest",
@@ -27,9 +31,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/MohamedRadwan/i18n.git"
+    "url": "git+https://github.com/mo0hamedRadwan/snappy-i18n.git"
   },
-  "description": "",
+  "description": "A lightweight, TypeScript-based internationalization (i18n) and localization (l10n) library for JavaScript applications. Designed to be framework-agnostic, extensible, and performant, @snappy/i18n provides robust features for managing translations, formatting numbers and dates, handling text direction, and supporting pluralization.",
   "keywords": [
     "i18n",
     "internationalization",
@@ -44,5 +48,8 @@
       "import": "./dist/index.js",
       "types": "./dist/index.d.ts"
     }
+  },
+  "engines": {
+    "node": ">=16.0.0"
   }
 }
